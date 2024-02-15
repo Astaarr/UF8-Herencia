@@ -1,14 +1,16 @@
 package enunciado1;
 
 public class Vehiculo{
+	// Iniciamos las variables
 	int rueda;
 	int velocidad;
 	
+	// Creamos constructor
 	public Vehiculo () {
 		this.rueda = 0;
 		this.velocidad = 0;
 	}
-
+	// Creamos constructor
 	public Vehiculo (int rueda, int velocidad) {
 		this.rueda = rueda;
 		this.velocidad = velocidad;
